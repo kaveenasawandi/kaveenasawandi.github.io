@@ -1,0 +1,42 @@
+.education-section {
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 10px;
+}
+
+.education-item h2 {
+    margin: 0;
+    color: white;
+}
+
+.education-item h3 {
+    margin: 0;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.education-section h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.education-section p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.education-section h2 {
+    color: white;
+    text-align: justify;
+}
+
+.container h2 {
+    color: white;
+    align-items: center;
+}
