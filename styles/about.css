@@ -27,7 +27,7 @@
 
 @media (max-width: 768px) {
     .about-section p {
-        font-size: 1.2rem;  /* Adjust font size for smaller screens */
-        margin: 15px 0;     /* Reduce margin for mobile */
+        font-size: 1.5rem;  /* Adjust font size for smaller screens */
+        margin: 5px 0;     /* Reduce margin for mobile */
     }
 }

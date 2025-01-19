@@ -40,3 +40,10 @@
     color: white;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .education-section {
+        font-size: 1.5rem;  /* Adjust font size for smaller screens */
+        margin: 5px 0;     /* Reduce margin for mobile */
+    }
+}
