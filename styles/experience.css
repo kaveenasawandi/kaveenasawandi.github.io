@@ -17,3 +17,47 @@
     font-size: 1.5rem;
     margin: 20px 0;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 2.8rem;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+    }
+
+    .container ul {
+        padding-left: 15px;
+    }
+
+    .container ul li {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .container h1 {
+        font-size: 2.2rem;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+    }
+
+    .container ul {
+        padding-left: 10px;
+    }
+
+    .container ul li {
+        margin-bottom: 8px;
+    }
+}
