@@ -25,9 +25,43 @@
     margin: 20px 0;
 }
 
+/* Mobile Adjustments */
 @media (max-width: 768px) {
+    .about-section {
+        padding: 15px;
+    }
+
+    .about-section h1 {
+        font-size: 2.8rem;
+    }
+
     .about-section p {
-        font-size: 1.5rem;  /* Adjust font size for smaller screens */
-        margin: 5px 0;     /* Reduce margin for mobile */
+        font-size: 1.3rem;
+    }
+
+    .about-section img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        padding: 10px;
+    }
+
+    .about-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+    }
+
+    .about-section img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
     }
 }
